@@ -2,29 +2,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="google-site-verification" content="OhLuhiP_cRSQioOj1edPGJrc_KH7N6jv1alRy3a_mX8" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Palworld Breeding Calculator</title>
+    <!-- SEO Title -->
+    <title>Palworld Breeding Calculator - Breeding Combinations</title>
 
-    <meta name="description" content="Use our Palworld Breeding Calculator to explore breeding combinations and plan your next Pal breeding pair.">
+    <!-- Meta Description -->
+    <meta name="description" content="Explore Palworld breeding combinations with our Palworld Breeding Calculator. Select parent Pals and plan your next breeding pair.">
 
-    <meta name="robots" content="index, follow">
+    <!-- Indexing Instructions -->
+    <meta name="robots" content="index, follow, max-image-preview:large">
 
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://breeding.generatornamechina.com/">
+
+    <!-- Theme Color -->
     <meta name="theme-color" content="#0b1220">
 
-    <link rel="stylesheet" href="style.css">
+    <!-- Open Graph SEO -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Palworld Breeding Calculator">
+    <meta property="og:description" content="Explore Palworld breeding combinations and plan your next breeding pair.">
+    <meta property="og:url" content="https://breeding.generatornamechina.com/">
+
+    <!-- Website CSS -->
+    <link rel="stylesheet" href="/style.css">
+
 </head>
 
 <body>
 
+    <!-- HEADER -->
     <header>
         <div class="container">
             <a href="/" class="logo">PAL<span>BREEDER</span></a>
 
-            <nav>
+            <nav aria-label="Main navigation">
                 <a href="#calculator">Calculator</a>
+                <a href="#how-it-works">How It Works</a>
                 <a href="#about">About</a>
             </nav>
         </div>
@@ -32,35 +48,43 @@
 
     <main>
 
+        <!-- HERO SECTION -->
         <section class="hero">
             <p class="tagline">PALWORLD BREEDING TOOL</p>
 
             <h1>Palworld Breeding Calculator</h1>
 
             <p>
-                Find breeding combinations and plan your next
-                Pal breeding pair with our simple calculator.
+                Explore Palworld breeding combinations and plan
+                your next breeding pair with our calculator.
             </p>
         </section>
 
+        <!-- CALCULATOR -->
         <section class="calculator container" id="calculator">
 
-            <h2>Choose Your Parent Pals</h2>
+            <h2>Palworld Breeding Calculator</h2>
+
+            <p>
+                Select two parent Pals below to explore a breeding
+                combination. Verified offspring data will be needed
+                to display accurate breeding results.
+            </p>
 
             <div class="breeding-form">
 
                 <div class="parent-box">
-                    <label for="parent1">Parent 1</label>
+                    <label for="parent1">First Parent Pal</label>
 
                     <select id="parent1">
                         <option value="">Select First Pal</option>
                     </select>
                 </div>
 
-                <div class="plus">+</div>
+                <div class="plus" aria-hidden="true">+</div>
 
                 <div class="parent-box">
-                    <label for="parent2">Parent 2</label>
+                    <label for="parent2">Second Parent Pal</label>
 
                     <select id="parent2">
                         <option value="">Select Second Pal</option>
@@ -79,36 +103,61 @@
 
         </section>
 
+        <!-- HOW IT WORKS -->
+        <section class="about container" id="how-it-works">
+
+            <h2>How to Use the Breeding Calculator</h2>
+
+            <ol>
+                <li>Select your first parent Pal from the dropdown.</li>
+                <li>Select your second parent Pal.</li>
+                <li>Click the Find Offspring button.</li>
+                <li>Check the result when verified breeding data is available.</li>
+            </ol>
+
+        </section>
+
+        <!-- ABOUT -->
         <section class="about container" id="about">
 
             <h2>About Palworld Breeding Calculator</h2>
 
             <p>
-                This Palworld Breeding Calculator is designed to help
-                players explore breeding combinations and plan their
-                breeding pairs. Select two parent Pals to check their
-                possible offspring once verified breeding data is connected.
+                This Palworld Breeding Calculator is a fan-made tool
+                designed to help players explore breeding combinations
+                and organize their breeding plans.
             </p>
 
-            <h2>How to Use the Calculator</h2>
+            <p>
+                Breeding outcomes depend on the game's breeding
+                mechanics and the data used by the calculator.
+                Always use accurate and up-to-date game information
+                when planning breeding combinations.
+            </p>
 
-            <ol>
-                <li>Select your first parent Pal.</li>
-                <li>Select your second parent Pal.</li>
-                <li>Click the Find Offspring button.</li>
-                <li>Check the breeding result.</li>
-            </ol>
+            <h2>What Is Palworld Breeding?</h2>
+
+            <p>
+                Breeding in Palworld allows players to combine two
+                parent Pals to produce an offspring. Understanding
+                breeding combinations can help players plan their
+                in-game breeding activities.
+            </p>
 
         </section>
 
     </main>
 
+    <!-- FOOTER -->
     <footer>
         <p>
             Fan-made tool. Not affiliated with or endorsed by Pocketpair.
             Palworld is a trademark of its respective owner.
         </p>
     </footer>
+
+    <!-- JavaScript -->
+    <script src="/app.js" defer></script>
 
 </body>
 </html>
